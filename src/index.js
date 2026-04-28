@@ -57,7 +57,7 @@ module.exports = function decode(expr) {
       }
       result += MORSE_TABLE[morseSymbol];
     }
-  } 
+  }
 
   return result;
 };
